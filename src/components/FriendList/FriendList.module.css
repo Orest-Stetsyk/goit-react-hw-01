@@ -1,0 +1,18 @@
+.list {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 15px;
+}
+
+.item {
+    width: calc((100%-60px)/5);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 20px;
+}

@@ -1,0 +1,49 @@
+.table {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.headWrapper {
+    width: 100%;
+    background-color: #333333;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headItem {
+    color: #fff;
+    border: 1px solid #000;
+    width: 100%;
+    padding: 6px 0;
+}
+
+.bodyWrapper {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.bodyItem {
+    text-align: start;
+    border: 1px solid #000;
+    width: 100%;
+    padding: 6px 70px;
+}
+
+.body:nth-child(2n+2) {
+    background-color: #a3a3a3;
+}

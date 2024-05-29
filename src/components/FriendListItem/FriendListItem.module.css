@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+}
+
+.picture {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.status {
+    font-size: 20px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
